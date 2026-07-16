@@ -46,30 +46,15 @@ console.log(`Welcome to my profile, ${developer.name}!`);
 ### 🚀 Projects & Focus (Interactive)
 
 <details>
-<summary><b>🛒 Multi-Agent System for Agricultural Inventory</b> (Click to expand)</summary>
+<summary><b>⚡ dotfiles — Entorno WSL2 Automatizado</b> (Click to expand)</summary>
 
+**Goal:** Terminal lista para desarrollar con un solo comando.
 
-
-
-**Goal:** Automating workflows with agents that make decisions based on data.
-
-* **SQL Analyst Agent:** Detects low stock levels via queries.
-* **Sentiment Agent:** Analyzes customer urgency in text requests.
-* **Orchestrator Agent:** Generates purchase actions and reports.
-
-</details>
-
-<details>
-<summary><b>📚 RAG over Technical Documents</b> (Click to expand)</summary>
-
-
-
-
-**Goal:** Answer questions using real context instead of just the base model.
-
-* **Tech:** LangChain, Vector Stores, PDF Loaders.
-* **Architecture:** Exploring 2-Step RAG and Hybrid RAG.
-* **Focus:** Double-source grounding (SQL data + Unstructured Documents).
+* **Shell:** ZSH + Powerlevel10k + lazy loading (zsh-defer)
+* **Terminal:** tmux con status bar personalizada (CPU/RAM, interval 5s)
+* **Herramientas:** fnm, zoxide, fzf, atuin, carapace
+* **Optimizaciones:** compinit diferido, startup ~70ms
+* **Bootstrap:** install.sh + backup automático
 
 </details>
 
