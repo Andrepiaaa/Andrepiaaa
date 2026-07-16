@@ -10,27 +10,18 @@
 
 ---
 
-### 🧾 About me (C++ style)
+### 🧾 About me (JavaScript style)
 
-```cpp
-#include <iostream>
-#include <string>
-using namespace std;
-
-struct DeveloperProfile {
-    string name        = "Andrea Carolina Epiayu Cotes";
-    string role        = "Software & Data Student";
-    string focus       = "Applied Generative AI";
-    string location    = "Quito, Ecuador";
-    string learningNow = "RAG, Multi-agent systems, Streamlit";
+```javascript
+const developer = {
+  name: "Andrea Carolina Epiayu Cotes",
+  role: "Software & Data Student",
+  focus: "Backend con Node.js + TypeScript + Prisma",
+  location: "Quito, Ecuador",
+  learning: ["Express", "Kotlin", "Jetpack Compose"],
 };
 
-int main() {
-    DeveloperProfile andrea;
-    cout << "Welcome to my profile. Systems loading..." << endl;
-    return 0;
-}
-
+console.log(`Welcome to my profile, ${developer.name}!`);
 ```
 
 ---
