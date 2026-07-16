@@ -38,7 +38,10 @@ console.log(`Welcome to my profile, ${developer.name}!`);
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma"/>
 <img src="https://img.shields.io/badge/Jarvis-FF6F00?style=for-the-badge&logo=openai&logoColor=white" alt="Jarvis"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go"/>
+<img src="https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm"/>
 <img src="https://img.shields.io/badge/Linux%20WSL2-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux WSL2"/>
+<img src="https://img.shields.io/badge/gentle--ai-7B2FF7?style=for-the-badge&logo=openai&logoColor=white" alt="gentle-ai"/>
 </p>
 
 ---
@@ -46,15 +49,30 @@ console.log(`Welcome to my profile, ${developer.name}!`);
 ### 🚀 Projects & Focus (Interactive)
 
 <details>
-<summary><b>⚡ dotfiles — Entorno WSL2 Automatizado</b> (Click to expand)</summary>
+<summary><b>⚡ Dotfiles — Entorno WSL2 Full Stack</b> (Click to expand)</summary>
 
 **Goal:** Terminal lista para desarrollar con un solo comando.
 
-* **Shell:** ZSH + Powerlevel10k + lazy loading (zsh-defer)
-* **Terminal:** tmux con status bar personalizada (CPU/RAM, interval 5s)
-* **Herramientas:** fnm, zoxide, fzf, atuin, carapace
-* **Optimizaciones:** compinit diferido, startup ~70ms
-* **Bootstrap:** install.sh + backup automático
+**Stack por capas:**
+* **🤖 AI Agents:** gentle-ai v2.1.6 + Pi (gentle-pi v0.80.7) + OpenCode + Engram MCP
+* **🛠️ Tools:** fnm, zoxide, fzf, atuin, carapace
+* **💻 Shell:** ZSH + Powerlevel10k + lazy loading (zsh-defer, ~70ms startup)
+* **🖥️ Terminal:** tmux con status bar personalizada (CPU/RAM, interval 5s)
+* **📦 Lenguajes:** Go 1.24.2 (XDG), Node v26.5.0 (fnm), pnpm v11.1.3 (gestor default)
+* **⚙️ Sistema:** XDG Base Directory + WSL2
+
+**Arquitectura XDG:**
+```
+~/.local/bin/     → gentle-ai, bins locales
+~/.local/go-sdk/  → GOROOT (Go SDK)
+~/.local/share/   → pnpm, módulos Go, bun
+~/.cache/go/      → GOCACHE
+~/.pi/            → Pi agent + extensions
+~/.engram/        → Memoria persistente
+```
+
+**Optimizaciones:** ~2.1 GB recuperados (NVM → fnm, OMZ eliminado, Go cache a XDG, MongoDB huérfanas eliminadas)
+**Bootstrap:** `curl -fsSL https://raw.githubusercontent.com/Andrepiaaa/dotfiles/main/install.sh | zsh`
 
 </details>
 
