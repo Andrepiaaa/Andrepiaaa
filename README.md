@@ -5,7 +5,9 @@
 </h1>
 
 <p align="center">
-  I enjoy building systems where <b>databases</b>, <b>language models</b>, and <b>simple web interfaces</b> work together.
+  🚀 Building backends with <b>Node.js</b> + <b>Prisma</b> + <b>MySQL</b><br>
+  🎨 Crafting UIs with vanilla <b>HTML</b> · <b>CSS</b> · <b>JavaScript</b><br>
+  📚 Currently diving into <b>Kotlin</b> & <b>Jetpack Compose</b>
 </p>
 
 ---
