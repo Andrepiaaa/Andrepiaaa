@@ -78,8 +78,8 @@ console.log(`Welcome to my profile, ${developer.name}!`);
 ### 📊 GitHub Analytics
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DTU_USUARIO%26show_icons%3Dtrue%26theme%3Dradical%26hide_border%3Dtrue" alt="Andrea's GitHub Stats" />
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DTU_USUARIO%26layout%3Dcompact%26theme%3Dradical%26hide_border%3Dtrue" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=Andrepiaaa&show_icons=true&theme=radical&hide_border=true" alt="Andrea's GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Andrepiaaa&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </div>
 
 ---
